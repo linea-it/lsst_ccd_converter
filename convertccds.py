@@ -1,6 +1,5 @@
 from astropy.io import fits
 import matplotlib.pyplot as plt
-%matplotlib inline
 import numpy as np
 import os
 import datetime
