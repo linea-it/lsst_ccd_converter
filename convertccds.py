@@ -35,6 +35,6 @@ exps = glob.glob(
     '/home/felipe/repos/lsst/lsst_image/data_repo/calexp/00193824-g/R*/calexp*')
 start = datetime.datetime.now()
 for idx, exp in enumerate(exps):
-    save_image_tiff(exp, '/home/felipe/repos/lsst/expviewer/images/exps', idx)
+    save_image_tiff(exp, './exps', idx)
 end = datetime.datetime.now()
 print('DONE: ', str(end-start))
